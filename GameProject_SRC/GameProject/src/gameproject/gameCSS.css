@@ -1,0 +1,57 @@
+
+/* 
+    Created on : 21-Apr-2018, 4:28:23 PM
+    Author     : Sarah
+*/
+
+#submit, #cancel, #cancel2, #confirm, #searchBtn2, #resetBtn, #exitBtn, #deleteBtn, #addBtn, #okBtn{
+    -fx-background-color: #FFEFD5;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 18;
+}
+
+#headerBox{
+    -fx-background-color: #FFEFD5;
+    -fx-min-height: 75;
+}
+
+#viewAllBtn, #searchBtn1, #addGameBtn{
+    -fx-background-color: #FFEFD5;
+    -fx-font-size: 28;
+    -fx-font-family: "Century Gothic";
+}
+
+#viewAllBtn:hover, #searchBtn1:hover, #addGameBtn:hover, #submit:hover, #cancel:hover, #cancel2:hover, 
+#confirm:hover,#searchBtn2:hover, #resetBtn:hover, #exitBtn:hover, #deleteBtn:hover, #addBtn:hover, #okBtn:hover{
+    -fx-background-color: #2E8B57;  
+    -fx-font-weight: bold;
+}
+
+#deleteText, #titleText, #searchText, #root, #searchRoot, #deleteRoot, #gameTitle, #errorText,
+#noMatchText {
+    -fx-font-family: "Century Gothic";
+}
+#titleCol, #genreCol, #platformCol, #yearCol, #achCol, #playsCol, #deleteText, #searchText, #noMatchText{
+    -fx-font-size: 18;
+}
+
+#root, #searchRoot, #deleteRoot{
+    -fx-background-color: #8FBC8F;
+}
+
+#titleText {
+    -fx-font-size: 38;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2E8B57;
+}
+
+.text-field{
+    -fx-min-width: 20px;
+    -fx-min-height: 30px;
+}
+
+#btnHolder, #btnHolder2, #outerHolder{
+    -fx-padding: 20px;
+}
